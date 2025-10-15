@@ -1,7 +1,7 @@
 # Face Recognition from existing data 🎥
 By Saved Local Data, 
 By Youtube link, 
-By Any other website Link
+By Any other website video Link
 
 A Python application that performs face detection and recognition on a pre-recorded video file (`.mp4`). This project identifies known individuals from a custom dataset of images and draws their names and bounding boxes onto the video frames.
 
