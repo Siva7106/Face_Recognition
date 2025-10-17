@@ -5,8 +5,6 @@ By Any other website video Link
 
 A Python application that performs face detection and recognition on a pre-recorded video file (`.mp4`). This project identifies known individuals from a custom dataset of images and draws their names and bounding boxes onto the video frames.
 
-![Example of Face Recognition in Action](https://i.imgur.com/3sFj7fG.png)
-
 ---
 
 ## 🌟 Key Features
