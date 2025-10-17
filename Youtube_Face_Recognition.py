@@ -8,7 +8,7 @@ encode.load_encoding_images("images/")
 
 # --- NEW CODE: Get Video Stream from YouTube ---
 # Paste the YouTube Shorts URL here
-youtube_url = "https://www.youtube.com/shorts/ckXZXhB_8qY?feature=share" # <--- PASTE YOUR URL
+youtube_url = "https://www.youtube.com/" # <--- PASTE YOUR URL
 
 # yt-dlp options to get the best video stream URL
 ydl_opts = {'format': 'best'}
@@ -52,4 +52,5 @@ while True:
 # --- Cleanup ---
 print("Releasing resources.")
 cap.release()
+
 cv2.destroyAllWindows()
