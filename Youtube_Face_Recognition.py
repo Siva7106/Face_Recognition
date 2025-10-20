@@ -4,11 +4,11 @@ import yt_dlp  # <-- 1. IMPORT THE LIBRARY
 
 # --- Setup ---
 encode = Face()
-encode.load_encoding_images("images/")
+encode.load_encoding_images("images/") # <--- Load the images to the folder to Recognise using the images 
 
 # --- NEW CODE: Get Video Stream from YouTube ---
 # Paste the YouTube Shorts URL here
-youtube_url = "https://www.youtube.com/" # <--- PASTE YOUR URL
+youtube_url = "https://www.youtube.com/" # <--- PASTE YOUR URL Of the Youtube video or Shorts
 
 # yt-dlp options to get the best video stream URL
 ydl_opts = {'format': 'best'}
@@ -54,3 +54,4 @@ print("Releasing resources.")
 cap.release()
 
 cv2.destroyAllWindows()
+
